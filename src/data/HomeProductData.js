@@ -1,0 +1,136 @@
+const HomeProductData = [
+    {
+        id: 1,
+        imageUrl:'https://i.gadgets360cdn.com/products/large/galaxy-s24-plus-655x800-1705519953.jpg?downsize=*:420&output-quality=80',
+        imageName: 'Samsung Galaxy S24+',
+        category: 'Mobile',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '20000'
+    },
+    {
+        id: 2,
+        imageUrl:'https://i.gadgets360cdn.com/products/small/moto-g-play-2024-moto-db-240x180-1705474162.jpg?downsize=120:*',
+        imageName: 'Moto G Play',
+        category: 'Mobile',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '30000'
+    },
+    {
+        id: 3,
+        imageUrl:'https://i.gadgets360cdn.com/products/small/Magic-6-Pro-DB-240x180-1705034038.jpg?downsize=120:*',
+        imageName: 'Honor Magic 6 Pro',
+        category: 'Mobile',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '10000'
+    },
+    {
+        id: 4,
+        imageUrl:'https://i.gadgets360cdn.com/products/small/moto-g-play-2024-moto-db-240x180-1705474162.jpg?downsize=120:*',
+        imageName: 'Moto G Play',
+        category: 'Mobile',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price:'5000'
+    },
+    {
+        id: 5,
+        imageUrl:'https://i.gadgets360cdn.com/products/small/Asus-ROG-Phone-8-db-1-240x180-1704780740.jpg?downsize=120:*',
+        imageName: 'Asus ROG Phone 8',
+        category: 'Mobile',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '10000'
+    },
+    {
+        id: 6,
+        imageUrl:'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-260w,f_auto,q_auto:best/newscms/2023_47/3574393/guest-3a93aab9-b48f-46b8-b60c-96884d75a6a1-633ee6e30c073.jpg',
+        imageName: 'LG C2 Series 65-Inch OLED',
+        category: 'TV',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '5000'
+    },
+    {
+        id: 7,
+        imageUrl:'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-260w,f_auto,q_auto:best/rockcms/2023-11/Screenshot-2023-11-24-at-12-82a8e6.png',
+        imageName: 'LG A2 Series 48-inch OLED',
+        category: 'TV',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '20000'
+
+    },
+    {
+        id: 8,
+        imageUrl:'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-260w,f_auto,q_auto:best/rockcms/2023-11/AMAZON-abf1a7.jpg',
+        imageName: 'Samsung 65-Inch Neo QLED QN90C',
+        category: 'TV',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '250000'
+    },
+    {
+        id: 9,
+        imageUrl:'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-260w,f_auto,q_auto:best/newscms/2023_47/3593053/418mbwyup3l-sl500-63dc19aec95ee.jpg',
+        imageName: 'Samsung 50-Inch The Frame Series',
+        category: 'TV',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '20000'
+    },
+    {
+        id: 10,
+        imageUrl:'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-260w,f_auto,q_auto:best/rockcms/2023-11/Screenshot-2023-11-24-at-1-50be79.png',
+        imageName: 'Sony 65-inch A80L 4K OLED TV',
+        category: 'TV',
+        Announced:	'2024 January 17',
+        Status	:'Coming soon.',
+        Dimensions:	'158.5 x 75.9 x 7.7mm (6.24 x 2.99 x 0.30 in)',
+        Weight:	'196 g or 197 g (6.91 oz)',
+        Build:	'Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame',
+        SIM:  'Nano-SIM and eSIM/ Dual eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by) IP68 dust/water resistant (up to 1.5m for 30 min)Armor aluminum 2 frame with tougher drop and scratch resistance (advertised)',
+        price: '10000'
+    },
+
+]
+
+export default HomeProductData;
